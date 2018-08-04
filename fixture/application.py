@@ -15,4 +15,4 @@ class Application:
         wd.get("http://localhost/addressbook/")
 
     def destroy(self):
-        self.wd.quit()
+        self.app.wd.quit()
